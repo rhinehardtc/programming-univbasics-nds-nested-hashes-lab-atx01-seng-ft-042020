@@ -15,7 +15,7 @@ end
  #Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 def literal_aoh
-  literal_array = [{:don_g => {DON_G.sort}}]
+  literal_array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   literal_array
 end
 
